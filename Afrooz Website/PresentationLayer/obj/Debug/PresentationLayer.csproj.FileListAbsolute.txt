@@ -1,0 +1,91 @@
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\PresentationLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\PresentationLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\PersianDatePickup.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\BuisinessLogicLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\obj\Debug\PresentationLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\obj\Debug\PresentationLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\AjaxControlToolkit.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\AjaxMin.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\HtmlAgilityPack.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.Data.Edm.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.Data.OData.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.WindowsAzure.Storage.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Telerik.Web.UI.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\System.Spatial.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\AjaxControlToolkit.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.Data.Edm.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.Data.OData.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Microsoft.WindowsAzure.Storage.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\Telerik.Web.UI.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\System.Spatial.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ar\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\cs\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\de\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\es\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\fr\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\he\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\hi\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\it\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ja\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ko\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\nl\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\pl\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\pt\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ru\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\tr-TR\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-CHS\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-CHT\AjaxControlToolkit.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\de\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\es\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\it\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\de\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\es\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\fr\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\it\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ja\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ko\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ru\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\de\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\es\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\fr\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\it\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ja\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ko\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\ru\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hans\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\PresentationLayer\bin\zh-Hant\System.Spatial.resources.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PresentationLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PresentationLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PersianDatePickup.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\Telerik.Web.UI.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\BuisinessLogicLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\Telerik.Web.UI.xml
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PresentationLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PresentationLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\BuisinessLogicLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\DataAccessLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\PersianDatePickup.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\BuisinessLogicLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\bin\DataAccessLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\PresentationLayer\obj\Debug\PresentationLayer.pdb

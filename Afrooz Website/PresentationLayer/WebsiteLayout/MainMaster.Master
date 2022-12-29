@@ -1,0 +1,674 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.Master.cs" Inherits="PresentationLayer.WebsiteLayout.MainMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title>راه زندگي|مشاوره روانشناسی|مشاوره تلفنی</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta name="author" content="Afrooz Ehrami. | http://rahe-zendegi.ir/"/>
+
+<link rel="canonical" href="http://rahe-zendegi.ir/" />
+
+
+  <meta name="keywords" content="مشاوره خانواده,مشاوره, مشاوره ازدواج, مرکز مشاوره
+  , مشاور خانواده,مرکز مشاوره خانواده,مشاوره خانواده آنلاين,ازدواج
+  , روانشناس شيراز, مشاوره روانشناسي ,مشاوره تلفني
+  , مشاوره کودک, دکتر روانشناس, تست ازدواج 
+  ,تست روانشناسي, روانشناس, مشاوره آنلاين
+  , مشاوره زناشويي  , مشاوره زنان
+  , family counseling ,marriage counseling, marriage ">
+
+    <meta name="description" content="مشاوره خانواده,مشاوره, مشاوره ازدواج, مرکز مشاوره
+  , مشاور خانواده,مرکز مشاوره خانواده,مشاوره خانواده آنلاين,ازدواج
+  , روانشناس شيراز, مشاوره روانشناسي ,مشاوره تلفني
+  , مشاوره کودک, دکتر روانشناس, تست ازدواج 
+  ,تست روانشناسي, روانشناس, مشاوره آنلاين
+  , مشاوره زناشويي  , مشاوره زنان
+  , family counseling ,marriage counseling, marriage ">
+
+<%--  <meta name="description" content="وب سايت راه زندگي، ارائه دهنده مشاوره خانواده، مشاوره ازدواج، مشاوره اعتياد و مشاوره کودکان و ... است. اين وب سايت آخرين و تخصصي ترين و علمي ترين مطالب و اطلاعات روانشناسي در موضوعات علم روانشناسسي و روانپزشکي و همچنين خدمات مشاوره حضوري و مشاوره تلفني را به شما بصورت آنلاين و تلفني ارائه مي نمايد.
+  This psychology website is about family counseling and marriage counseling and contains Telephone  counseling.">--%>
+
+  <meta name="robots" content="index, follow" />
+
+  <meta name="googlebot" content="index, follow" />
+
+  <meta http-equiv="Cache-control" content="private" />
+
+  <meta name="google" content="notranslate" />
+
+  <meta name="google-site-verification" content="Afrooz Ehrami" />
+
+  <meta name="distribution" content="global">
+
+  <meta name="classification" content="psychology">
+
+
+
+
+
+<link href="Pic/png1/tree8.png" rel="icon" type="image/x-icon"/>
+
+<link rel="stylesheet" href="Interface/MainCss.css" type="text/css"/>
+
+<%--<script src="Interface/javascripts/jquery-ui-1-10-4.js"></script>--%>
+<script src="Interface/javascripts/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="Interface/javascripts/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="Interface/javascripts/jquery.cycle.js"></script>
+
+<script src="Interface/javascripts/Wce10b40154b31.htm"></script>  <!-- left pic slider -->
+<script>    eval(mod_pagespeed_0jriLnLQ6q);</script> <!-- left news slider && Tabs Panel -->
+<script src="Interface/javascripts/Wc1dd34ae1395d.htm"></script> <!-- left news slider && Tabs Panel -->
+<script>    eval(mod_pagespeed_8S0DVjbKH0);</script>
+
+
+    <asp:ContentPlaceHolder ID="HtmlHeaderSection" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <style>   
+  blink { -webkit-animation: blink 1s steps(5, start) infinite; 
+         -moz-animation: blink 1s steps(5, start) infinite; 
+         -o-animation: blink 1s steps(5, start) infinite; 
+         animation: blink 1s steps(5, start) infinite; }
+
+          @-webkit-keyframes  blink { to { visibility: hidden; } }
+           @-moz-keyframes blink { to { visibility: hidden; } } 
+           @-o-keyframes blink { to { visibility: hidden; } } 
+           @keyframes blink { to { visibility: hidden; } }
+           }
+
+</style> 
+
+
+</head>
+
+
+<body>
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+<!-- header -->
+
+<div class="header">
+
+<div class="container">
+
+<div class="logo">
+    <asp:Image ID="imgLogo" runat="server" alt="Rahe-zendegi.ir | راه زندگي" 
+        ImageUrl="~/WebsiteLayout/Pic/png1/Logo2.png"/></div>
+
+<div class="header-topleft">
+
+<div class="log-box">
+        
+    <table align="center" style="margin-top:8px;">
+
+                        <tr>
+                      <td 
+                                                align="right"  >
+  
+   
+  
+<asp:Label ID="lblMessage" runat="server" Font-Bold="False" CssClass="LableMy"></asp:Label>
+
+   
+  
+                  <asp:Label ID="lblUserName" runat="server" 
+                    Text="نام کاربري:" CssClass="LableMy"></asp:Label>
+                            &nbsp;<asp:TextBox ID="txtUserName" runat="server" 
+                        ToolTip="نام کاربري را وارد کنيد" Width="80px" MaxLength="20" 
+                                  
+                                CssClass="LoginInputControl"></asp:TextBox>
+  
+   
+  
+                  <asp:Label ID="lblPassword" runat="server" 
+                    Text="کلمه عبور:" CssClass="LableMy"></asp:Label>
+                                            <asp:TextBox ID="txtPassword" runat="server" 
+                        TextMode="Password" ToolTip="کلمه عبور را وارد کنيد" Width="80px" MaxLength="20" 
+                                                  CssClass="LoginInputControl"></asp:TextBox> 
+                
+                            
+                            <asp:Button ID="btnLogin" runat="server" CssClass="loginButtonMy" 
+                        OnClick="btnLogin_Click"                       
+                        Text="ورود"   CausesValidation="False" />
+                          
+                            </td>
+                        </tr>
+                       
+                                                                    
+                                            
+                        <tr>
+                      <td 
+                                                align="center"  >
+
+                       
+  
+                          <asp:HyperLink ID="HyperLinkForgetPass" runat="server" 
+                              NavigateUrl="~/ForgetPassword.aspx" ForeColor="white">رمز عبور را فراموش کرده ام!</asp:HyperLink>
+  
+                          <asp:Label ID="lblMessage2" runat="server" Font-Bold="False" CssClass="LableMy"></asp:Label></td>
+                        </tr>
+                       
+                                                                    
+                                            
+                        </table>
+        
+   
+     
+  
+    <%--
+<a href="" class="login-link my_modal_open" onclick="changeLink('../login/returnTo/JTNGc24lM0Rob21l/default.htm')">ورود</a>
+
+<a href="" class="register-link">عضويت</a>
+
+</div>--%>
+
+
+
+
+    <%--<div class="search">
+<div class="search-toggle"></div>
+
+<div class="saarch-field">
+
+
+
+</div>
+
+</div>--%>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- /header -->
+
+
+
+
+<!-- header-nav-bar -->
+
+   <div class="header-nav-bar">
+<div class="container">
+<div class="header-nav-bar-link">
+
+<div id="myTreeMenuChangesContainer" style="display:hidden"></div>
+
+<ul id="myTreeRoot" class="myTreeMenu">
+
+<li id="myTreeMenuRow[5][item]" class="myTreeMenuChildNode">	
+
+<%
+    
+    if (Session["UserType"] == null)
+        Response.Write("<a class='noBg' href='../AdminLogin.aspx' id='myTreeMenuRow[5][titleLink]'>مديريت سايت</a>");
+    else
+    {
+
+        if (Session["UserType"] == "Student")
+            Response.Write("<a class='noBg' href='../User/ControlPanelPage.aspx' id='myTreeMenuRow[5][titleLink]'><blink> کنترل پانل عضو </blink></a>");
+        else
+        {
+            if (Session["UserType"] == "Admin")
+                Response.Write("<a class='noBg' href='../Admin/AdminControlPanelPage.aspx' id='myTreeMenuRow[5][titleLink]'> <blink> کنترل پانل مدیر </blink></a>");
+        }
+    } 
+    
+       
+     %>
+</li>
+
+<li id="myTreeMenuRow[0][item]" class="myTreeMenuChildNode">	<a class="noBg" href="../User/ShowAllin.aspx" id="myTreeMenuRow[0][titleLink]">مطالب و مقالات</a>
+</li>
+
+<li id="myTreeMenuRow[1][item]" class="myTreeMenuChildNode">	<a class="noBg" href="../User/ShowEventList.aspx" id="myTreeMenuRow[1][titleLink]">اخبار و رويدادها</a>
+</li>
+
+<li id="myTreeMenuRow[2][item]" class="myTreeMenuChildNode">	<a class="noBg"  href="" id="myTreeMenuRow[2][titleLink]">دلنوشته ها</a>
+</li>
+
+<li id="myTreeMenuRow[3][item]" class="myTreeMenuChildNode">	<a class="noBg" href="" id="myTreeMenuRow[3][titleLink]">مشاوره حضوري</a>
+</li>
+
+<%--<li id="myTreeMenuRow[4][item]" class="myTreeMenuChildNode">	<a class="noBg" href="../PhoneConsult.aspx" id="myTreeMenuRow[4][titleLink]">مشاوره تلفني</a>
+</li>--%>
+
+
+<li id="Li3" class="myTreeMenuChildNode">	<a class="noBg" href="../About.aspx" id="A3">درباره</a>
+</li>
+
+<%
+    
+    if (Session["UserType"] == null)
+        Response.Write("<li id='myTreeMenuRow[6][item]' class='myTreeMenuChildNode'>	<a class='noBg' href='../Registration.aspx' id='myTreeMenuRow[6][titleLink]'><blink>عضويت در سايت</blink></a></li>");
+%>
+
+</ul>
+</div>
+
+     <%--<div class="social">
+<ul>
+<li><a rel="nofollow" href="http://www.facebook.com/Rahe-zendegi.ir" title="فيسبوک"><img alt="Facebook" src="Interface/images/facebook.png"></a></li>
+<li><a rel="nofollow" href="http://www.aparat.com/Rahe-zendegi.ir" title="آپارات"><img alt="Twitter" src="Interface/images/twitter.png"></a></li>
+<li><a rel="nofollow" href="https://plus.google.com/+Rahe-zendegi.irIrMag" title="گوگل+"><img alt="G+" src="Interface/images/google_plus.png"></a></li>
+<li><a class="g-plusone" data-href="http://Rahe-zendegi.ir" data-size="small" data-annotation="bubble"></a></li>
+</ul>
+<script type="text/javascript">    window.___gcfg = { lang: 'fa' }; (function () { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+</div>--%>
+
+</div>
+</div>
+
+<!-- /header-nav-bar -->
+
+<!-- menue -->
+
+  <div class="menu">
+<div class="container">
+<div id="simpleTreeMenuChangesContainer" style="display:hidden"></div>
+
+<ul id="nav" class="simpleTreeMenu ">
+
+
+
+<li id="simpleTreeMenuRow[28][item]" class="simpleTreeMenuChildNode homeChildNode">	<a href="../Main.aspx" id="simpleTreeMenuRow[28][container]"></a>
+</li>
+
+
+<li id="simpleTreeMenuRow[18][item]" class="simpleTreeMenuParentNode" >	<a style="font-size:23px;"><blink>مشاوره تلفنی</blink></a>
+
+<ul id="simpleTreeMenuRow[18][childs]" class="">
+
+<li>
+
+<ul class="submenu">
+<li>
+
+<!-- first coulumn -->
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title"><a>درباره مشاوره تلفنی </a></li>
+<li><a href="../PhoneConsult.aspx#A">آشنایی با مشاوره تلفنی</a></li>
+<li><a href="../PhoneConsult.aspx#B">فواید مشاوره تلفنی</a></li>
+<li><a href="../PhoneConsult.aspx#C">نکات مهم درباره مشاوره تلفنی</a></li>
+</ul>
+</li>
+</ul>
+
+
+<!-- second coulumn -->
+
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title"><a href="../PhoneConsultReserve.aspx#impTips">نکات مهم در رزرو وقت مشاوره</a></li>
+
+
+</ul>
+</li>
+</ul>
+
+
+<!-- third coulumn -->
+
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title"><a href="../PhoneConsultReserve.aspx#appointments">رزرو وقت مشاوره تلفنی</a></li>
+
+</ul>
+
+
+
+</li>
+</ul>
+
+<!-- fourth coulumn -->
+
+<ul class="submenu-column">
+<li>
+
+<%--<ul>
+<li class="ul-title"><a href="../PhoneConsultReserve.aspx">وقتهای رزرو شده مشاوره تلفنی</a></li>
+
+<li><a href="">آنيما و آنيموس</a></li>
+
+</ul>--%>
+
+</li>
+</ul>
+
+
+</li>
+
+</ul>
+
+
+</li>
+
+</ul>
+
+
+
+<li id="simpleTreeMenuRow[15][item]" class="simpleTreeMenuChildNode">	<a href="../ShowAllVidoe.aspx" id="simpleTreeMenuRow[15][container]">ویدیوهای روانشناسی</a>
+</li>
+
+<%--<li id="simpleTreeMenuRow[16][item]" class="simpleTreeMenuChildNode">	<a href="" id="simpleTreeMenuRow[16][container]">تبپ هاي شخصيتي</a>
+</li>--%>
+
+
+<%--<li id="simpleTreeMenuRow[18][item]" class="simpleTreeMenuParentNode">	<a href="" id="simpleTreeMenuRow[18][container]">مباحث روانشناسي</a>
+
+<ul id="simpleTreeMenuRow[18][childs]" class="">
+
+<li>
+
+<ul class="submenu">
+<li>
+
+<!-- first coulumn -->
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title">اختلالات رواني</li>
+
+<li><a href="">آلزايمر </a></li>
+<li><a href="">استرس </a></li>
+<li><a href="">اضطراب</a></li>
+<li><a href="">اختلالات تبديلي</a></li>
+<li><a href="">اختلالات دوقطبي</a></li>
+<li><a href="">افسردگي</a></li>
+<li><a href="">اوتيسم</a></li>
+<li><a href="">خيالبافي</a></li>
+<li><a href="">خودبيمارانگاري</a></li>
+<li><a href="">جوع (بوليما)</a></li>
+<li><a href="">لکنت زبان</a></li>
+<li><a href="">وسواس</a></li>
+</ul>
+</li>
+</ul>
+
+
+<!-- second coulumn -->
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title">روانشناسي رشد</li>
+<li><a href="">بازي نوزاد</a></li>
+<li><a href="">بلوغ</a></li>
+<li><a href="">پدر موفق</a></li>
+<li><a href="">ترس کودکان</a></li>
+<li><a href="">تنبيه و تشويق</a></li>
+<li><a href="">ضربه عاطفي </a></li>
+<li><a href="">کودک دردسرساز </a></li>
+<li><a href="">عزت نفس کودکان </a></li>
+</ul>
+
+
+<ul>
+<li class="ul-title">روانشناسي فيزيولوژيک</li>
+
+<li><a href="">انگيزش و هيجان</a></li>
+<li><a href="">خواب</a></li>
+</ul>
+</li>
+</ul>
+
+
+<!-- third coulumn -->
+
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title">روانشناسي اجتماعي</li>
+
+<li><a href="">آنيما و آنيموس</a></li>
+<li><a href="">اسطوره شناسي</a></li>
+<li><a href="">اعتماد به نفس</a></li>
+<li><a href="">اعتياد</a></li>
+<li><a href="">پيشگيري از اعتياد</a></li>
+<li><a href="">تمرکز</a></li>
+<li><a href="">خشم</a></li>
+<li><a href="">خودشناسي</a></li>
+<li><a href="">چگونه"نه" گفتن </a></li>
+<li><a href="">رضايت شغلي</a></li>
+<li><a href="">فرهنگ و شخصيت</a></li>
+<li><a href="">کم رويي</a></li>
+<li><a href="">محبوبيت بين ديگران</a></li>
+<li><a href="">موفقيت</a></li>
+</ul>
+</li>
+</ul>
+
+<!-- fourth coulumn -->
+
+<ul class="submenu-column">
+<li>
+
+<ul>
+<li class="ul-title">راهنماي مسائل زندگي</li>
+
+<li><a href="">انحراف جنسي</a></li>
+<li><a href="">شاد زيستن</a></li>
+<li><a href="">خواستگاري</a></li>
+<li><a href="">خودشکوفايي</a></li>
+<li><a href="">رفتار با همسر</a></li>
+<li><a href="">زنان</a></li>
+<li><a href="">زندگي زناشويي</a></li>
+<li><a href="">طلاق</a></li>
+</ul>
+
+
+
+<ul>
+<li class="ul-title">بهداشت روان</li>
+<li><a href="">آرام سازي (Relaxation)</a></li>
+<li><a href="">يوگا</a></li>
+</ul>
+</li>
+</ul>
+
+
+</li>
+
+</ul>
+
+
+</li>
+
+</ul>--%>
+
+</li>
+
+
+<%--<li id="simpleTreeMenuRow[52][item]" class="simpleTreeMenuParentNode reviewChildNode">	<a href="" id="simpleTreeMenuRow[52][container]">مکانيزم هاي دفاعي</a>
+<ul id="simpleTreeMenuRow[52][childs]" class="">
+<li id="simpleTreeMenuRow[62][item]" class="simpleTreeMenuChildNode">	<a href="" id="simpleTreeMenuRow[62][container]">نقد و بررسي </a>
+</li>
+
+</ul>
+</li>--%>
+
+<%--<li id="simpleTreeMenuRow[40][item]" class="simpleTreeMenuParentNode contactChildNode">	
+<a href="http://counseling.ut.ac.ir/images/test.swf"  target="_blank" id="simpleTreeMenuRow[40][container]">خودسنجي</a>
+
+</li>--%>
+
+<li id="Li2" class="simpleTreeMenuParentNode contactChildNode">	<a href="../User/ShowBookDownload.aspx"  id="A2">کتابخانه روانشناسي</a>
+
+</li>
+
+<li id="Li1" class="simpleTreeMenuParentNode contactChildNode">	<a href=""  target="_blank" id="A1">فروشگاه روانشناسي</a>
+
+</li>
+</ul>
+</div>
+</div>
+
+<!-- /menue -->
+
+
+
+
+<!-- wrapper -->
+
+
+<div class="wrapper">
+    <div class="container">
+
+        <div class="main">
+    
+                <asp:ContentPlaceHolder ID="FullMainBody" runat="server">
+                </asp:ContentPlaceHolder>
+
+        </div>
+
+     </div>
+</div>
+
+
+
+<br class="clearfloat"/>
+<br/>
+
+
+
+
+<div class="top-ravan">
+<div class="container">
+<%--<h1 class="top-ravan-title">مباحث روانشناسي</h1>--%>
+<div class="top-ravan-category-list">
+<ul>
+
+<%
+    LogicalLayer.News myNews = new LogicalLayer.News();
+    System.Data.DataTable dt = new System.Data.DataTable();
+
+
+    dt = myNews.showNews("TableNews","newsType,count(newsType) as Newscounter", null, "group by newsType");
+
+    for (int i = 0; i < dt.Rows.Count; i++)
+    {
+        if (dt.Rows[i]["newsType"].ToString() == "مشاوره ازدواج")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?مشاوره ازدواج'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/heart_PNG696.png' />مشاوره ازدواج (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "روانشناسي زناشويي")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?روانشناسي زناشويي'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/eye_PNG6184.png' />روانشناسي زناشويي (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "مشاوره خانواده")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?مشاوره خانواده'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/rose.png' />مشاوره خانواده (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "روانشناسي کودکان")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?روانشناسي کودکان'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/girls_PNG6458.png' />روانشناسي کودکان (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "روانشناسي اجتماعي")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?روانشناسي اجتماعي'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/key_PNG3379.png' />روانشناسي اجتماعي (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "روانشناسي سلامت")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?روانشناسي سلامت'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/lips_PNG6225.png' />روانشناسي سلامت (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "اختلالات رواني")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?اختلالات رواني'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/book_PNG2109.png' />اختلالات رواني (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+
+        if (dt.Rows[i]["newsType"].ToString() == "مهارتهاي زندگي")
+        {
+            Response.Write("<li><a href='../User/ShowAllMabhas.aspx?مهارتهاي زندگي'><img ID='Img0' runat='server' src='/WebsiteLayout/Pic/png1/tree8.png' />مهارتهاي زندگي (" + dt.Rows[i]["Newscounter"].ToString() + ")</a></li>");
+        }
+    }
+
+
+     %>
+
+</ul>
+</div> </div>
+</div>
+
+<div class="gcse-searchresults-only"></div>
+
+
+<div class="footer" style="margin-top:7px;">
+<div class="container">
+
+<div class="footer-item-about">
+<h3 class="footer-item-about-title">درباره ما</h3>
+وب سايت راه زندگي، ارائه دهنده مشاوره خانواده، مشاوره ازدواج، مشاوره اعتياد و مشاوره کودکان و ... است. اين وب سايت آخرين و تخصصي ترين و علمي ترين مطالب و اطلاعات روانشناسي در موضوعات علم روانشناسسي و روانپزشکي و همچنين خدمات مشاوره حضوري و مشاوره تلفني را به شما بصورت آنلاين و تلفني ارائه مي نمايد.
+<br />
+بزرگترين آرزوي ما اين است که علاقمندان علم روانشناسي بتوانند تمامي نيازهاي خود را در وب سايت "راه زندگي" بيابند و اميدواريم که بتوانيم اعتماد و توجه تمامي شما عزيزان را به خود جلب کنيم.
+همواره پذيراي انتقادات و پيشنهادات شما خواهيم بود.
+</div>
+
+<%--<div class="footer-item">
+<h3 class="footer-item-title">پيوندها</h3>
+<ul class="footer-item-list">
+<li><a href="" rel="nofollow" target="_blank">عصر روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">پرشين روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">خبر روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">روانشناس</a></li>
+</ul>
+</div>
+
+
+
+<div class="footer-item footer-item-last">
+<h3 class="footer-item-title">پيوندها</h3>
+<ul class="footer-item-list">
+<li><a href="" rel="nofollow" target="_blank">عصر روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">پرشين روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">خبر روانشناس</a></li>
+<li><a href="" rel="nofollow" target="_blank">روانشناس</a></li>
+</ul>
+</div>--%>
+</div>
+</div>
+
+
+<div class="copyright">
+<div class="container"> تمام حقوق اين وب سايت براي <a href="http://rahe-zendegi.ir/">راه زندگي</a> محفوظ است.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Copyright ©.  2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تحلیل و طراحی توسط&nbsp;&nbsp;&nbsp;      <a href="http://montaseri.ir/" target="_blank">مهندس منتصري</a> 
+ </div>
+</div>
+
+
+<div style="display:none;">
+</div>
+
+
+</div>
+
+<!-- /wrapper -->
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\bin\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\bin\BuisinessLogicLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\bin\PersianDatePickup.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.csprojResolveAssemblyReference.cache
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\BuisinessLogicLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\PersianDatePickup.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.csprojResolveAssemblyReference.cache
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\BuisinessLogicLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\BuisinessLogicLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\DataAccessLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\PersianDatePickup.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\bin\DataAccessLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.csprojResolveAssemblyReference.cache
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.Properties.Resources.resources
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.csproj.GenerateResource.Cache
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\BuisinessLogicLayer\obj\Debug\BuisinessLogicLayer.pdb

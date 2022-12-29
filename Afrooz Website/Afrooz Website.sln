@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisinessLogicLayer", "BuisinessLogicLayer\BuisinessLogicLayer.csproj", "{8ECFB880-B511-4CF3-9049-F44E80D08004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{922C58C1-1450-44AA-87DB-5EB23935202E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{E82ECC97-5375-48E4-BE9A-395B6EFC667C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ECFB880-B511-4CF3-9049-F44E80D08004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECFB880-B511-4CF3-9049-F44E80D08004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECFB880-B511-4CF3-9049-F44E80D08004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECFB880-B511-4CF3-9049-F44E80D08004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922C58C1-1450-44AA-87DB-5EB23935202E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922C58C1-1450-44AA-87DB-5EB23935202E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922C58C1-1450-44AA-87DB-5EB23935202E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922C58C1-1450-44AA-87DB-5EB23935202E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82ECC97-5375-48E4-BE9A-395B6EFC667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82ECC97-5375-48E4-BE9A-395B6EFC667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82ECC97-5375-48E4-BE9A-395B6EFC667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82ECC97-5375-48E4-BE9A-395B6EFC667C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

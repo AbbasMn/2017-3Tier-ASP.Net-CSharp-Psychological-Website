@@ -1,0 +1,14 @@
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\DataAccessLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\DataAccessLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((My Web Site - New Shell - 3 Tier))))\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\bin\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\bin\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\bin\DataAccessLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\bin\DataAccessLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Programming\((My Web .Net Projects))\ASP.net with C#\((((Afrooz Website))))\Afrooz Website\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

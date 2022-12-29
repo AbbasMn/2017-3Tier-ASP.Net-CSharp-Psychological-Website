@@ -1,0 +1,4 @@
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\bin\Afrooz Website.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\bin\Afrooz Website.pdb
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\obj\Debug\Afrooz Website.dll
+F:\for_teaching\programming with compilers\((.net))\Web\ASP.net with C#\((my projects))\((((Afrooz Website))))\Afrooz Website\obj\Debug\Afrooz Website.pdb

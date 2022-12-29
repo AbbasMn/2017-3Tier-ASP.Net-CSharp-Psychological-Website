@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E82ECC97-5375-48E4-BE9A-395B6EFC667C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PresentationLayer</RootNamespace>
+    <AssemblyName>PresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <DesktopBuildPackageLocation>..\..\%28%28Published%29%29\</DesktopBuildPackageLocation>
+    <PublishDatabases>false</PublishDatabases>
+    <ExcludeApp_Data>false</ExcludeApp_Data>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabases>false</PublishDatabases>
+    <DesktopBuildPackageLocation>..\%28%28%28%28Published Final%29%29%29%29\</DesktopBuildPackageLocation>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxMin">
+      <HintPath>..\Bin\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\Bin\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm">
+      <HintPath>..\Bin\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData">
+      <HintPath>..\Bin\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration">
+      <HintPath>..\Bin\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>..\Bin\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="PersianDatePickup, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BuisinessLogicLayer\BuisinessClasses\PersianDatePickup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI, Version=2010.1.415.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminBranchManagment.aspx.cs">
+      <DependentUpon>AdminBranchManagment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminBranchManagment.aspx.designer.cs">
+      <DependentUpon>AdminBranchManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminControlPanelPage.aspx.cs">
+      <DependentUpon>AdminControlPanelPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminControlPanelPage.aspx.designer.cs">
+      <DependentUpon>AdminControlPanelPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminDefineConsultTime.aspx.cs">
+      <DependentUpon>AdminDefineConsultTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminDefineConsultTime.aspx.designer.cs">
+      <DependentUpon>AdminDefineConsultTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminEditEvent.aspx.cs">
+      <DependentUpon>AdminEditEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminEditEvent.aspx.designer.cs">
+      <DependentUpon>AdminEditEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminEditNews.aspx.cs">
+      <DependentUpon>AdminEditNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminEditNews.aspx.designer.cs">
+      <DependentUpon>AdminEditNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminEditPhoneConsultReserve.aspx.cs">
+      <DependentUpon>AdminEditPhoneConsultReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminEditPhoneConsultReserve.aspx.designer.cs">
+      <DependentUpon>AdminEditPhoneConsultReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminEditSelectedEvent.aspx.cs">
+      <DependentUpon>AdminEditSelectedEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminEditSelectedEvent.aspx.designer.cs">
+      <DependentUpon>AdminEditSelectedEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminEditSelectedNews.aspx.cs">
+      <DependentUpon>AdminEditSelectedNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminEditSelectedNews.aspx.designer.cs">
+      <DependentUpon>AdminEditSelectedNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminInserNews.aspx.cs">
+      <DependentUpon>AdminInserNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminInserNews.aspx.designer.cs">
+      <DependentUpon>AdminInserNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminInsertEvent.aspx.cs">
+      <DependentUpon>AdminInsertEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminInsertEvent.aspx.designer.cs">
+      <DependentUpon>AdminInsertEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminManagePhoneConsultReserve.aspx.cs">
+      <DependentUpon>AdminManagePhoneConsultReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminManagePhoneConsultReserve.aspx.designer.cs">
+      <DependentUpon>AdminManagePhoneConsultReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminProfile.aspx.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminProfile.aspx.designer.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminShowUsers.aspx.cs">
+      <DependentUpon>AdminShowUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminShowUsers.aspx.designer.cs">
+      <DependentUpon>AdminShowUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminAtieNoo.aspx.cs">
+      <DependentUpon>AdminAtieNoo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminAtieNoo.aspx.designer.cs">
+      <DependentUpon>AdminAtieNoo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminManageMembershipDeposit.aspx.cs">
+      <DependentUpon>AdminManageMembershipDeposit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminManageMembershipDeposit.aspx.designer.cs">
+      <DependentUpon>AdminManageMembershipDeposit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminInserBook.aspx.cs">
+      <DependentUpon>AdminInserBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminInserBook.aspx.designer.cs">
+      <DependentUpon>AdminInserBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminInserVideo.aspx.cs">
+      <DependentUpon>AdminInserVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminInserVideo.aspx.designer.cs">
+      <DependentUpon>AdminInserVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminAtieNooEditNews.aspx.cs">
+      <DependentUpon>AdminAtieNooEditNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminAtieNooEditNews.aspx.designer.cs">
+      <DependentUpon>AdminAtieNooEditNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Commitments.aspx.cs">
+      <DependentUpon>Commitments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commitments.aspx.designer.cs">
+      <DependentUpon>Commitments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JSONAndroidIncrementNewsViewrCounter.aspx.cs">
+      <DependentUpon>JSONAndroidIncrementNewsViewrCounter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSONAndroidIncrementNewsViewrCounter.aspx.designer.cs">
+      <DependentUpon>JSONAndroidIncrementNewsViewrCounter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JSONUpdatedviewerCounter.aspx.cs">
+      <DependentUpon>JSONUpdatedviewerCounter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSONUpdatedviewerCounter.aspx.designer.cs">
+      <DependentUpon>JSONUpdatedviewerCounter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FilmPlayer.aspx.cs">
+      <DependentUpon>FilmPlayer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FilmPlayer.aspx.designer.cs">
+      <DependentUpon>FilmPlayer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FilmPlayer2.aspx.cs">
+      <DependentUpon>FilmPlayer2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FilmPlayer2.aspx.designer.cs">
+      <DependentUpon>FilmPlayer2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertPhoneConsultReserve.aspx.cs">
+      <DependentUpon>InsertPhoneConsultReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertPhoneConsultReserve.aspx.designer.cs">
+      <DependentUpon>InsertPhoneConsultReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JSON.aspx.cs">
+      <DependentUpon>JSON.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSON.aspx.designer.cs">
+      <DependentUpon>JSON.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsPaper.aspx.cs">
+      <DependentUpon>NewsPaper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsPaper.aspx.designer.cs">
+      <DependentUpon>NewsPaper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneConsult.aspx.cs">
+      <DependentUpon>PhoneConsult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhoneConsult.aspx.designer.cs">
+      <DependentUpon>PhoneConsult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneConsultReserve.aspx.cs">
+      <DependentUpon>PhoneConsultReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhoneConsultReserve.aspx.designer.cs">
+      <DependentUpon>PhoneConsultReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllVidoe.aspx.cs">
+      <DependentUpon>ShowAllVidoe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowAllVidoe.aspx.designer.cs">
+      <DependentUpon>ShowAllVidoe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowVideo.aspx.cs">
+      <DependentUpon>ShowVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowVideo.aspx.designer.cs">
+      <DependentUpon>ShowVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VideoRouter.aspx.cs">
+      <DependentUpon>VideoRouter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VideoRouter.aspx.designer.cs">
+      <DependentUpon>VideoRouter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShowBookDownload.aspx.cs">
+      <DependentUpon>ShowBookDownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShowBookDownload.aspx.designer.cs">
+      <DependentUpon>ShowBookDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\EditPassword.aspx.cs">
+      <DependentUpon>EditPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\EditPassword.aspx.designer.cs">
+      <DependentUpon>EditPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\DepositeMembership.aspx.cs">
+      <DependentUpon>DepositeMembership.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\DepositeMembership.aspx.designer.cs">
+      <DependentUpon>DepositeMembership.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ControlPanelPage.aspx.cs">
+      <DependentUpon>ControlPanelPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ControlPanelPage.aspx.designer.cs">
+      <DependentUpon>ControlPanelPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\PageContentElement.aspx.cs">
+      <DependentUpon>PageContentElement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\PageContentElement.aspx.designer.cs">
+      <DependentUpon>PageContentElement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShowAllin.aspx.cs">
+      <DependentUpon>ShowAllin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShowAllin.aspx.designer.cs">
+      <DependentUpon>ShowAllin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShowAllMabhas.aspx.cs">
+      <DependentUpon>ShowAllMabhas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShowAllMabhas.aspx.designer.cs">
+      <DependentUpon>ShowAllMabhas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShowEventList.aspx.cs">
+      <DependentUpon>ShowEventList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShowEventList.aspx.designer.cs">
+      <DependentUpon>ShowEventList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShowpassageList.aspx.cs">
+      <DependentUpon>ShowpassageList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShowpassageList.aspx.designer.cs">
+      <DependentUpon>ShowpassageList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SubjectDetails.aspx.cs">
+      <DependentUpon>SubjectDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SubjectDetails.aspx.designer.cs">
+      <DependentUpon>SubjectDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SubjectRouter.aspx.cs">
+      <DependentUpon>SubjectRouter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SubjectRouter.aspx.designer.cs">
+      <DependentUpon>SubjectRouter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebsiteLayout\abbasbook.aspx.cs">
+      <DependentUpon>abbasbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebsiteLayout\abbasbook.aspx.designer.cs">
+      <DependentUpon>abbasbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebsiteLayout\MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebsiteLayout\MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="BookFiles\Books\" />
+    <Folder Include="VideoClips\VideoImages\" />
+    <Folder Include="VideoClips\Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuisinessLogicLayer\BuisinessLogicLayer.csproj">
+      <Project>{8ECFB880-B511-4CF3-9049-F44E80D08004}</Project>
+      <Name>BuisinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{922C58C1-1450-44AA-87DB-5EB23935202E}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="Admin\AdminBranchManagment.aspx" />
+    <Content Include="Admin\AdminControlPanelPage.aspx" />
+    <Content Include="Admin\AdminDefineConsultTime.aspx" />
+    <Content Include="Admin\AdminEditEvent.aspx" />
+    <Content Include="Admin\AdminEditNews.aspx" />
+    <Content Include="Admin\AdminEditPhoneConsultReserve.aspx" />
+    <Content Include="Admin\AdminEditSelectedEvent.aspx" />
+    <Content Include="Admin\AdminEditSelectedNews.aspx" />
+    <Content Include="Admin\AdminInserNews.aspx" />
+    <Content Include="Admin\AdminInsertEvent.aspx" />
+    <Content Include="Admin\AdminManagePhoneConsultReserve.aspx" />
+    <Content Include="Admin\AdminProfile.aspx" />
+    <Content Include="Admin\AdminShowUsers.aspx" />
+    <Content Include="Admin\AdminAtieNoo.aspx" />
+    <Content Include="Admin\AdminManageMembershipDeposit.aspx" />
+    <Content Include="Admin\AdminInserBook.aspx" />
+    <Content Include="Admin\AdminInserVideo.aspx" />
+    <Content Include="Admin\AdminAtieNooEditNews.aspx" />
+    <Content Include="BookFiles\BooksImages\DSC_1355.jpg" />
+    <Content Include="Commitments.aspx" />
+    <Content Include="JSONAndroidIncrementNewsViewrCounter.aspx" />
+    <Content Include="JSONUpdatedviewerCounter.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ForgetPassword.aspx" />
+    <Content Include="FilmPlayer.aspx" />
+    <Content Include="FilmPlayer2.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="JSON.aspx" />
+    <Content Include="NewsFiles\DownloadIcon\.doc.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.docx.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.pdf.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.ppt.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.pptx.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.rar.jpg" />
+    <Content Include="NewsFiles\DownloadIcon\.zip.jpg" />
+    <Content Include="NewsImages\dava.jpg" />
+    <Content Include="NewsImages\default.jpg" />
+    <Content Include="NewsImages\default1.jpg" />
+    <Content Include="NewsImages\etelaeeieh.jpg" />
+    <Content Include="NewsImages\gerye kodak.jpg" />
+    <Content Include="NewsImages\Logo-450-200.jpg" />
+    <Content Include="NewsImages\Logo2.png" />
+    <Content Include="NewsPaper.aspx" />
+    <Content Include="ShowAllVidoe.aspx" />
+    <Content Include="ShowVideo.aspx" />
+    <Content Include="VideoRouter.aspx" />
+    <Content Include="UserUploadedPictures\UserProfilePic\abas.jpg" />
+    <Content Include="UserUploadedPictures\UserProfilePic\profilepic.jpg" />
+    <Content Include="User\ShowBookDownload.aspx" />
+    <Content Include="User\EditPassword.aspx" />
+    <Content Include="User\DepositeMembership.aspx" />
+    <Content Include="User\Profile.aspx" />
+    <Content Include="VideoClips\bauhaus.mp4" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer.html" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\doc.css" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\flowplayer_flash.png" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\ga.js" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\head.min.js" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\jquery.js" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\jquery.tools.min.js" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\saved_resource.html" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\site.js" />
+    <Content Include="VideoClips\flowplayer\Basics _ Flowplayer_files\syntax.css" />
+    <Content Include="VideoClips\flowplayer\embed.min.js" />
+    <Content Include="VideoClips\flowplayer\flowplayer.js" />
+    <Content Include="VideoClips\flowplayer\flowplayer.min.js" />
+    <Content Include="VideoClips\flowplayer\flowplayer.swf" />
+    <Content Include="VideoClips\flowplayer\flowplayerhls.swf" />
+    <Content Include="VideoClips\flowplayer\index.html" />
+    <Content Include="VideoClips\flowplayer\skin\all-skins.css" />
+    <Content Include="VideoClips\flowplayer\skin\fonts\fpicons.svg" />
+    <Content Include="VideoClips\flowplayer\skin\functional.css" />
+    <Content Include="VideoClips\flowplayer\skin\img\black%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\black.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\black_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\black_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\flowplayer%402x.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\flowplayer.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_black%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_black.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_black_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_black_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_white%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_white.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_white_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\playful_white_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_black%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_black.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_black_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_black_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_white%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_white.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_white_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\play_white_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\white%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\white.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\white_rtl%40x2.png" />
+    <Content Include="VideoClips\flowplayer\skin\img\white_rtl.png" />
+    <Content Include="VideoClips\flowplayer\skin\minimalist.css" />
+    <Content Include="VideoClips\flowplayer\skin\playful.css" />
+    <Content Include="VideoClips\Shamloo-Ashl-Razist.mp4" />
+    <Content Include="WebsiteLayout\abbasbook.aspx" />
+    <Content Include="WebsiteLayout\FilmPlayer\flowplayer.min.js" />
+    <Content Include="WebsiteLayout\FilmPlayer\fonts\fpicons.svg" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\flowplayer%402x.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\flowplayer.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\flowplayer.swf" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\play_white%40x2.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\play_white.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\play_white_rtl%40x2.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\img\play_white_rtl.png" />
+    <Content Include="WebsiteLayout\FilmPlayer\jquery-1.10.2.min.js" />
+    <Content Include="WebsiteLayout\FilmPlayer\playful.css" />
+    <Content Include="WebsiteLayout\FilmPlayer\Shamloo-Ashl-Razist.mp4" />
+    <Content Include="WebsiteLayout\GeneralLib\xajax.js" />
+    <Content Include="WebsiteLayout\GeneralLib\xajax.js.pagespeed.jm.Ircw-gcqpv.js" />
+    <Content Include="WebsiteLayout\Interface\css\A.video-js.css.pagespeed.cf.Fmi2NSiiSB1.css" />
+    <Content Include="WebsiteLayout\Interface\css\chosen-sprite.png" />
+    <Content Include="WebsiteLayout\Interface\css\images\border.png" />
+    <Content Include="WebsiteLayout\Interface\css\images\controls.png" />
+    <Content Include="WebsiteLayout\Interface\css\images\loading.gif" />
+    <Content Include="WebsiteLayout\Interface\css\images\loading_background.png" />
+    <Content Include="WebsiteLayout\Interface\images\ajax-loader.gif" />
+    <Content Include="WebsiteLayout\Interface\images\author-suggest.png" />
+    <Content Include="WebsiteLayout\Interface\images\avatar_s.jpg" />
+    <Content Include="WebsiteLayout\Interface\images\button.png" />
+    <Content Include="WebsiteLayout\Interface\images\close.png" />
+    <Content Include="WebsiteLayout\Interface\images\customloader.gif" />
+    <Content Include="WebsiteLayout\Interface\images\cvr.png" />
+    <Content Include="WebsiteLayout\Interface\images\facebook.png" />
+    <Content Include="WebsiteLayout\Interface\images\favicon.ico" />
+    <Content Include="WebsiteLayout\Interface\images\gallery-bullet.png" />
+    <Content Include="WebsiteLayout\Interface\images\gallery-comment.png" />
+    <Content Include="WebsiteLayout\Interface\images\gallery-like.png" />
+    <Content Include="WebsiteLayout\Interface\images\google_plus.png" />
+    <Content Include="WebsiteLayout\Interface\images\header-nav-list.jpg" />
+    <Content Include="WebsiteLayout\Interface\images\home.png" />
+    <Content Include="WebsiteLayout\Interface\images\like.jpg" />
+    <Content Include="WebsiteLayout\Interface\images\login.png" />
+    <Content Include="WebsiteLayout\Interface\images\logo.jpg" />
+    <Content Include="WebsiteLayout\Interface\images\menu-bullet.png" />
+    <Content Include="WebsiteLayout\Interface\images\minus.png" />
+    <Content Include="WebsiteLayout\Interface\images\navigation-sprator.jpg" />
+    <Content Include="WebsiteLayout\Interface\images\next-arrow.png" />
+    <Content Include="WebsiteLayout\Interface\images\next.png" />
+    <Content Include="WebsiteLayout\Interface\images\play.png" />
+    <Content Include="WebsiteLayout\Interface\images\plus.png" />
+    <Content Include="WebsiteLayout\Interface\images\prev-arrow.png" />
+    <Content Include="WebsiteLayout\Interface\images\prev.png" />
+    <Content Include="WebsiteLayout\Interface\images\price-list-table-arrow.png" />
+    <Content Include="WebsiteLayout\Interface\images\price-next.png" />
+    <Content Include="WebsiteLayout\Interface\images\price-prev.png" />
+    <Content Include="WebsiteLayout\Interface\images\removeicon.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\next.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\prev.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\review-box-addreview.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\review-box-count.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\review-box-topbrand.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\review-top-box-aculad.png" />
+    <Content Include="WebsiteLayout\Interface\images\review\sort.png" />
+    <Content Include="WebsiteLayout\Interface\images\revloader.gif" />
+    <Content Include="WebsiteLayout\Interface\images\search.png" />
+    <Content Include="WebsiteLayout\Interface\images\sidebar-gallery-arrow.png" />
+    <Content Include="WebsiteLayout\Interface\images\slide-comment.png" />
+    <Content Include="WebsiteLayout\Interface\images\star-active.png" />
+    <Content Include="WebsiteLayout\Interface\images\star-disable.png" />
+    <Content Include="WebsiteLayout\Interface\images\tab-news-item-meta.png" />
+    <Content Include="WebsiteLayout\Interface\images\twitter.png" />
+    <Content Include="WebsiteLayout\Interface\javascripts\design-attachment.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery-1.8.2.min.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery-ui-1-10-4.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery.cycle.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery.knob.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery.mCustomScrollbar.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\jquery.popupoverlay.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\video.js.pagespeed.js" />
+    <Content Include="WebsiteLayout\Interface\javascripts\Wc1dd34ae1395d.htm" />
+    <Content Include="WebsiteLayout\Interface\javascripts\Wce10b40154b31.htm" />
+    <Content Include="WebsiteLayout\Interface\MainCss.css" />
+    <Content Include="WebsiteLayout\Pic\Icons\admin.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\adminmessage.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\advertise.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\ALL-CAPS-icon.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\arrowr_gray.gif" />
+    <Content Include="WebsiteLayout\Pic\Icons\book.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\courseGroup.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\delete1.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\download.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\download1.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\editprofile.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\ergreg.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\examDate.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\exercise.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\homeMain.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\insertMsrks.jpg" />
+    <Content Include="WebsiteLayout\Pic\Icons\leftmenue1.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\list-style.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\login.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\logout.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\marks.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\messag.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\messageResponse.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\news.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\newWeb.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\no.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\peresentedCourse.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\pictures.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\protest.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\responseToMessage.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\responseToTeacher.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\selectCourse.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\sendMessage.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\softdownload.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\softdownload2.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\softpermission.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\stdentMessage.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\student.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\studentResponse.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\Tadris.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\teacherMessage.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\True.gif" />
+    <Content Include="WebsiteLayout\Pic\Icons\university-graduation.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\university.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\video.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\wefwe.png" />
+    <Content Include="WebsiteLayout\Pic\Icons\yes.png" />
+    <Content Include="WebsiteLayout\Pic\png1\book_PNG2109.png" />
+    <Content Include="WebsiteLayout\Pic\png1\book_PNG2116.png" />
+    <Content Include="WebsiteLayout\Pic\png1\book_PNG2117.png" />
+    <Content Include="WebsiteLayout\Pic\png1\book_PNG2120.png" />
+    <Content Include="WebsiteLayout\Pic\png1\clock_PNG6653.png" />
+    <Content Include="WebsiteLayout\Pic\png1\clock_PNG6670.png" />
+    <Content Include="WebsiteLayout\Pic\png1\cloud.png" />
+    <Content Include="WebsiteLayout\Pic\png1\cloud2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\cloud3.png" />
+    <Content Include="WebsiteLayout\Pic\png1\cloud4.png" />
+    <Content Include="WebsiteLayout\Pic\png1\cloud5.png" />
+    <Content Include="WebsiteLayout\Pic\png1\coin_PNG3557.png" />
+    <Content Include="WebsiteLayout\Pic\png1\computer_pc_PNG7703.png" />
+    <Content Include="WebsiteLayout\Pic\png1\computer_pc_PNG7718.png" />
+    <Content Include="WebsiteLayout\Pic\png1\computer_pc_PNG7719.png" />
+    <Content Include="WebsiteLayout\Pic\png1\computer_pc_PNG7721.png" />
+    <Content Include="WebsiteLayout\Pic\png1\crispy_new_tree.png" />
+    <Content Include="WebsiteLayout\Pic\png1\ear_PNG6245.png" />
+    <Content Include="WebsiteLayout\Pic\png1\eye_PNG6181.png" />
+    <Content Include="WebsiteLayout\Pic\png1\eye_PNG6184.png" />
+    <Content Include="WebsiteLayout\Pic\png1\eye_PNG6190.png" />
+    <Content Include="WebsiteLayout\Pic\png1\eye_PNG6192.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6458.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6461.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6462.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6463.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6471.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6474.png" />
+    <Content Include="WebsiteLayout\Pic\png1\girls_PNG6481.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass3.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass4.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass5.png" />
+    <Content Include="WebsiteLayout\Pic\png1\grass6.png" />
+    <Content Include="WebsiteLayout\Pic\png1\guitar_PNG3349.png" />
+    <Content Include="WebsiteLayout\Pic\png1\guitar_PNG3354.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hair_PNG5620.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG871.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG876.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG897.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG899.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG913.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG914.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG927.png" />
+    <Content Include="WebsiteLayout\Pic\png1\hands_PNG939.png" />
+    <Content Include="WebsiteLayout\Pic\png1\heart_PNG686.png" />
+    <Content Include="WebsiteLayout\Pic\png1\heart_PNG687.png" />
+    <Content Include="WebsiteLayout\Pic\png1\heart_PNG696.png" />
+    <Content Include="WebsiteLayout\Pic\png1\keyboard_PNG5851.png" />
+    <Content Include="WebsiteLayout\Pic\png1\key_PNG3379.png" />
+    <Content Include="WebsiteLayout\Pic\png1\lamp_PNG3707.png" />
+    <Content Include="WebsiteLayout\Pic\png1\lamp_PNG3718.png" />
+    <Content Include="WebsiteLayout\Pic\png1\laptop_PNG5916.png" />
+    <Content Include="WebsiteLayout\Pic\png1\laptop_PNG5921.png" />
+    <Content Include="WebsiteLayout\Pic\png1\laptop_PNG5926.png" />
+    <Content Include="WebsiteLayout\Pic\png1\laptop_PNG5938.png" />
+    <Content Include="WebsiteLayout\Pic\png1\laptop_PNG5941.png" />
+    <Content Include="WebsiteLayout\Pic\png1\lips_PNG6206.png" />
+    <Content Include="WebsiteLayout\Pic\png1\lips_PNG6225.png" />
+    <Content Include="WebsiteLayout\Pic\png1\lips_PNG6226.png" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo - 970 - 2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo-450-200-2.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo-970-160.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo.png" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\Logo22.png" />
+    <Content Include="WebsiteLayout\Pic\png1\microphone_PNG7899.png" />
+    <Content Include="WebsiteLayout\Pic\png1\microphone_PNG7920.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3507.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3516.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3537.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3543.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3546.png" />
+    <Content Include="WebsiteLayout\Pic\png1\money_PNG3547.png" />
+    <Content Include="WebsiteLayout\Pic\png1\mosaferan.gif" />
+    <Content Include="WebsiteLayout\Pic\png1\pen_PNG7406.png" />
+    <Content Include="WebsiteLayout\Pic\png1\pen_PNG7420.png" />
+    <Content Include="WebsiteLayout\Pic\png1\pen_PNG7421.png" />
+    <Content Include="WebsiteLayout\Pic\png1\pen_PNG7424.png" />
+    <Content Include="WebsiteLayout\Pic\png1\pen_PNG7435.png" />
+    <Content Include="WebsiteLayout\Pic\png1\phone_PNG454.png" />
+    <Content Include="WebsiteLayout\Pic\png1\phone_PNG457.png" />
+    <Content Include="WebsiteLayout\Pic\png1\phone_PNG467.png" />
+    <Content Include="WebsiteLayout\Pic\png1\printer_PNG7734.png" />
+    <Content Include="WebsiteLayout\Pic\png1\printer_PNG7738.png" />
+    <Content Include="WebsiteLayout\Pic\png1\printer_PNG7745.png" />
+    <Content Include="WebsiteLayout\Pic\png1\printer_PNG7747.png" />
+    <Content Include="WebsiteLayout\Pic\png1\printer_PNG7754.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rainbow.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rainbow2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rainbow3.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rose.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rose2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rose3.png" />
+    <Content Include="WebsiteLayout\Pic\png1\rose4.png" />
+    <Content Include="WebsiteLayout\Pic\png1\shopping_bag_PNG6386.png" />
+    <Content Include="WebsiteLayout\Pic\png1\shopping_bag_PNG6387.png" />
+    <Content Include="WebsiteLayout\Pic\png1\shopping_bag_PNG6389.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5528.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5539.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5542.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5546.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5554.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5557.png" />
+    <Content Include="WebsiteLayout\Pic\png1\skeleton_PNG5561.png" />
+    <Content Include="WebsiteLayout\Pic\png1\star_PNG1578.png" />
+    <Content Include="WebsiteLayout\Pic\png1\star_PNG1588.png" />
+    <Content Include="WebsiteLayout\Pic\png1\star_PNG1593.png" />
+    <Content Include="WebsiteLayout\Pic\png1\star_PNG1597.png" />
+    <Content Include="WebsiteLayout\Pic\png1\star_PNG1598.png" />
+    <Content Include="WebsiteLayout\Pic\png1\teeth_PNG7327.png" />
+    <Content Include="WebsiteLayout\Pic\png1\teeth_PNG7328.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\tree.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree2.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\tree2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree3.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\tree3.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree4.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\tree4.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree5.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\tree5.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree6png.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree7.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tree8.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tv_PNG474.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tv_PNG477.png" />
+    <Content Include="WebsiteLayout\Pic\png1\tv_PNG483.png" />
+    <Content Include="WebsiteLayout\Pic\png1\umbrella_PNG497.png" />
+    <Content Include="WebsiteLayout\Pic\png1\umbrella_PNG500.png" />
+    <Content Include="WebsiteLayout\Pic\png1\video_camera_PNG7860.png" />
+    <Content Include="WebsiteLayout\Pic\png1\video_camera_PNG7887.png" />
+    <Content Include="WebsiteLayout\Pic\png1\video_camera_PNG7891.png" />
+    <Content Include="WebsiteLayout\Pic\png1\video_camera_PNG7894.png" />
+    <Content Include="WebsiteLayout\Pic\png1\video_camera_PNG7896.png" />
+    <Content Include="WebsiteLayout\Pic\png1\water.png" />
+    <Content Include="WebsiteLayout\Pic\png1\water2.png" />
+    <Content Include="WebsiteLayout\Pic\png1\water4.png" />
+    <Content Include="WebsiteLayout\Pic\png1\way.jpg" />
+    <Content Include="WebsiteLayout\Pic\png1\web_camera_PNG7973.png" />
+    <Content Include="WebsiteLayout\Pic\png1\web_camera_PNG7985.png" />
+    <Content Include="WebsiteLayout\Pic\png1\web_camera_PNG7986.png" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\img\landscape\ejtemaee.jpg" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\img\landscape\ezdevaj.jpg" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\img\landscape\kodak.jpg" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\img\landscape\maharatzendegi.jpg" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jquery-1.9.1.min.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.player.ytiframe.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.player.ytiframe.min.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.debug.min.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.min.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.mini.js" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-01.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-02.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-03.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-04.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-05.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-06.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-07.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-08.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-09.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-10.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-11.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-12.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-13.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-14.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-15.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-16.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-18.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-19.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-20.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-21.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\arrow-22.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-01.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-02.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-03.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-05.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-06.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-07.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-09.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-10.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-11.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-12.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-13.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-14.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-16.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-17.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-18.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-20.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\bullet-21.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-01.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-02.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-03.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-04.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-05.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-06.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-07.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-08.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-09.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-10.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-15.source.html" />
+    <Content Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\skin\thumbnail-16.source.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="googlee3d62f39922d6d24.html" />
+    <Content Include="InsertPhoneConsultReserve.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="PhoneConsult.aspx" />
+    <Content Include="PhoneConsultReserve.aspx" />
+    <Content Include="Registration.aspx" />
+    <Content Include="User\ControlPanelPage.aspx" />
+    <Content Include="User\PageContentElement.aspx" />
+    <Content Include="User\ShowAllin.aspx" />
+    <Content Include="User\ShowAllMabhas.aspx" />
+    <Content Include="User\ShowEventList.aspx" />
+    <Content Include="User\ShowpassageList.aspx" />
+    <Content Include="User\SubjectDetails.aspx" />
+    <Content Include="User\SubjectRouter.aspx" />
+    <Content Include="web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NewsFiles\Rahe-Zendegi.ir.pdf" />
+    <None Include="VideoClips\bauhaus.webm" />
+    <None Include="VideoClips\flowplayer\LICENSE.md" />
+    <None Include="VideoClips\flowplayer\skin\fonts\fpicons.eot" />
+    <None Include="VideoClips\flowplayer\skin\fonts\fpicons.ttf" />
+    <None Include="VideoClips\flowplayer\skin\fonts\fpicons.woff" />
+    <None Include="WebsiteLayout\FilmPlayer\fonts\fpicons.eot" />
+    <None Include="WebsiteLayout\FilmPlayer\fonts\fpicons.ttf" />
+    <None Include="WebsiteLayout\FilmPlayer\fonts\fpicons.woff" />
+    <None Include="WebsiteLayout\FilmPlayer\subtitles-en.vtt" />
+    <None Include="WebsiteLayout\Interface\BYEKAN.TTF" />
+    <None Include="WebsiteLayout\Interface\fonts\BYEKAN.TTF" />
+    <Content Include="WebsiteLayout\MainMaster.Master" />
+    <None Include="WebsiteLayout\Pic\Icons\persianlogo.lmk" />
+    <None Include="WebsiteLayout\Pic\png1\Logo - Copy.psd" />
+    <None Include="WebsiteLayout\Pic\png1\Logo.psd" />
+    <None Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.player.ytiframe.compress.bat" />
+    <None Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.debug.min.compress.bat" />
+    <None Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.min.compress.bat" />
+    <None Include="WebsiteLayout\Slider\Jssor.Slider.FullPack\js\jssor.slider.mini.compress.bat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4871</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
